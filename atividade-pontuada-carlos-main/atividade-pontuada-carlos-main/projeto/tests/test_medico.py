@@ -10,9 +10,9 @@ from projeto.models.enums.sexo import Sexo
 
 @pytest.fixture
 def cadastro_medico_valido():
-    medico = Medico(7,"Silvestre", "378218312", "dwqdwq", 
-                Endereco("Rua A", 77, "Casa", "8888","Salvador", Unidade_Federativa.BAHIA), Sexo.MASCULINO,
-                Estado_Civil.CASADO,"08/07/2000", "321312", "321321", "321321", Setor.ENGENHARIA, 32133, "A04")
+    medico = Medico(7,"Vinnicius", "378218312", "abcdee", 
+                Endereco("Rua A", 75, "Casa", "9754","Salvador", Unidade_Federativa.BAHIA), Sexo.MASCULINO,
+                Estado_Civil.CASADO,"08/12/2025", "321312", "321321", "321321", Setor.ENGENHARIA, 32133, "A06")
     return medico
 
 def validando_id_do_medico(cadastro_medico_valido):
